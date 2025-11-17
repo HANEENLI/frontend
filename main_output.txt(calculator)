@@ -1,0 +1,18 @@
+Result: 8
+First number is greater
+Enter first number: 5
+Enter second number: 3
+
+Choose operation:
++  for addition
+-  for subtraction
+*  for multiplication
+/  for division
+** for power
+Operation: +
+
+Result: 8.0
+First number is greater
+
+
+** Process exited - Return Code: 0 **
