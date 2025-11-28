@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مشروعي الأول</title>
+
+  <!-- خط عربي جميل -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* خلفية الصفحة */
+    body {
+      background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      font-family: "Tajawal", sans-serif;
+      text-align: center;
+      color: white;
+      margin: 0;
+      padding: 0;
+      backdrop-filter: blur(3px);
+    }
+
+    /* تظليل خفيف فوق الخلفية */
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      min-height: 100vh;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 45px;
+      margin-bottom: 10px;
+      color: #ffccff;
+    }
+
+    p {
+      font-size: 22px;
+      margin-bottom: 40px;
+    }
+
+    /* شكل البطاقات */
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+      width: 280px;
+      padding: 20px;
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card h2 {
+      color: #ffccff;
+      font-size: 22px;
+      margin: 15px 0 8px;
+    }
+
+    .card p {
+      font-size: 16px;
+      color: #f5f5f5;
+    }
+
+    /* الزر في الأسفل */
+    button {
+      margin-top: 50px;
+      background-color: #ff7b00;
+      color: white;
+      border: none;
+      padding: 14px 30px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #ffb703;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>مرحباً بكم في مشروعي الأول 🌸</h1>
+    <p>أول تجربة تصميم بلمسة جمالية بسيطة!</p>
+
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="طبيعة">
+        <h2>منظر طبيعي</h2>
+        <p>جمال الطبيعة يمنحنا الهدوء والطاقة الإيجابية 🌿</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1517816428104-797678c7cf0d?auto=format&fit=crop&w=800&q=80" alt="قهوة">
+        <h2>فنجان قهوة</h2>
+        <p>القهوة بداية جميلة ليوم مليء بالإبداع ☕</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="إبداع">
+        <h2>لحظة إبداع</h2>
+        <p>كل فكرة صغيرة ممكن تكون بداية نجاح كبير 💡</p>
+      </div>
+    </div>
+
+    <button>ابدأ رحلتك الآن</button>
+  </div>
+</body>
+</html>
