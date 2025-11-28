@@ -1,0 +1,84 @@
+/* خلفية الصفحة */
+body {
+  background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  font-family: "Tajawal", sans-serif;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  backdrop-filter: blur(3px);
+}
+
+/* تظليل خفيف فوق الخلفية */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
+  padding: 60px 20px;
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  color: #ffccff;
+}
+
+p {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+/* شكل البطاقات */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  width: 280px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h2 {
+  color: #ffccff;
+  font-size: 22px;
+  margin: 15px 0 8px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #f5f5f5;
+}
+
+/* الزر */
+button {
+  margin-top: 50px;
+  background-color: #ff7b00;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ffb703;
+}
